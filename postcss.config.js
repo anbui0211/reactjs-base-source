@@ -3,8 +3,7 @@
  */
 export default {
   plugins: {
-    '@tailwindcss/postcss': {},
-    // Tự động thêm các prefix cho các trình duyệt tương ứng
+    tailwindcss: {},
     autoprefixer: {},
   },
 };
